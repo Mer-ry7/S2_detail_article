@@ -18,7 +18,45 @@ image {
 }
 
 .article-category {
-   display: ; 
+   display: inline-block; 
+   margin-bottom: 100px;
+   padding: 8px 24px;
+   color: #1c5bba;
+   font-size: 14px;
+   background: white;
+   border: 2px solid #f0f6ff;
+   border-radius: 20px;
+}
 
+.article-header h1 {
+    margin: 0 auto;
+    color: #111827;
+    font-family: Georgia, serif;
+    font-size: 50px;
+    line-height: 1.15;
+}
+.article-author img {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.article-author span {
+    color: #9ca3af;
+    font-size: 12px;
+}
+
+/* Bannière de l'article */
+.article-cover {
+    height: 250px;
+    margin: 0;
+}
+
+.article-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
